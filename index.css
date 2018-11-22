@@ -1,0 +1,47 @@
+.container {
+    padding: 1%;
+    height: 100%;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.lContainer {
+    display: flex;
+    width: 98%;
+    padding: 1%;
+    margin: 1% 0% 1% 0%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 470px;
+}
+
+section {
+    margin: 1%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.layout {
+    margin: 1%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
